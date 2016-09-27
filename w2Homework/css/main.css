@@ -1,0 +1,101 @@
+body {
+	background-color: #303549;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+}
+.folioName{
+	display: inline-block;
+	position: absolute;
+	width: 20PX;
+	top:70%;
+	margin-left: 12px;
+    color:  #303549;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.nav_box{
+	max-width: 700px;
+	display: block;
+	margin: 0px auto;
+}
+
+.nav_item{
+	float: left;
+	width: 24%;
+	background-color: #303549;
+	padding: 20px 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15px;
+	color: #fff9f3;
+
+}
+.nav_item:hover{
+	color: #303549;
+	width: 24%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+.block_box{
+	width: 900px;
+	display: block;
+	margin: 50px auto;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #fff9f3;
+}
+
+.socialIcon{
+	width: 50px;
+	height: 100%;
+	bottom: 0;
+    right: 11%;
+    position: fixed;
+    z-index: 3000;
+	background-color: #dbb9d2;;
+
+}
+
+.pink{
+	width: 20%;
+	height: 100%;
+	bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: -3000;
+	background-color:#dbb9d2;;
+	opacity: 0.9;
+
+}
+
+
+.yellow {
+    width: 100px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: yellow;
+    padding-top: 4px;
+    width: 20%;
+  }
+
+
+.close{
+	transform: scale(0);
+	width: 0;
+	padding: 0;
+	transition: all 0.2s linear;
+}
+
+
+
+
+
+
