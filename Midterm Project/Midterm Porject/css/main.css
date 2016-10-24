@@ -1,0 +1,168 @@
+.img{
+	display: inline-block;
+
+}
+
+#smokeBack{
+	position: absolute;
+    top: 0px;
+    z-index: -100000;
+    left: 0px;
+     animation: appear_B 10s normal forwards;
+}
+
+#smokeFront{
+	position: absolute;
+    top: 0px;
+    z-index: -10000;
+    left: 0px;
+    animation: appear_A 10s normal forwards;
+}
+
+#click{
+    position: absolute;
+    top: 61%;
+    z-index: 100000;
+    left: 60%;
+    animation: appear_C 20s normal forwards;
+
+}
+
+
+
+@-webkit-keyframes appear_A{
+    0%  { opacity: 0; }
+    50% { opacity: 1; }
+    	}
+
+@-webkit-keyframes appear_B{
+    0%  { opacity: 0; }
+    51% { opacity: 0; }
+    100%{ opacity: 1; }
+    	}
+
+@-webkit-keyframes appear_C{
+    0%  { opacity: 0; }
+    95% { opacity: 0; }
+    100%{ opacity: 1; }
+        }
+
+#circle{
+	position: absolute;
+    top: 5%;
+    z-index: -1000;
+    left: 25%;
+}
+
+#snake{
+    position: absolute;
+    top: 11%;
+    z-index: -1001;
+    left: 37%;
+}
+
+#smoking1{
+    position: absolute;
+    top: 50%;
+    z-index: -1002;
+    left: 25%;
+}
+
+#circle1{
+    position: absolute;
+    top: 5%;
+    z-index: -1003;
+    left: 25%;
+}
+
+#smoking{
+	position: absolute;
+    top: 50%;
+    z-index: -100;
+    left: 25%;
+}
+
+#horse{
+	position: absolute;
+    top: 12%;
+    z-index: -10;
+    left: 38%;
+}
+
+
+#pumkin{
+	position: absolute;
+    top: 5%;
+    z-index:12;
+    left: 12%;
+}
+
+#lotus{
+    position: absolute;
+    top: 15%;
+    z-index:11;
+    left: 2%;
+}
+
+#leftHand{
+    position: absolute;
+    top: 42%;
+    z-index: 12;
+    left: 13%;
+}
+
+#fire01{
+    position: absolute;
+    top: 55%;
+    z-index: 9;
+    left: 5%;
+}
+
+#fire02{
+    position: absolute;
+    top: 65%;
+    z-index: -9;
+    left: 16%;
+}
+
+#rightHand{
+    position: absolute;
+    top: 4%;
+    z-index: 9;
+    right: 20%;
+}
+
+#fire03{
+    position: absolute;
+    top: 20%;
+    z-index: -9;
+    right: 16%;
+}
+
+#smoke{
+    position: absolute;
+    top: 10%;
+    z-index: 11;
+    right: 4%;
+}
+
+#horn{
+        position: absolute;
+    top: 51%;
+    z-index: 10;
+    right: 10%;
+}
+
+#hat{
+    position: absolute;
+    top: 68%;
+    z-index: 9;
+    right: 2%;
+}
+
+.draggable:hover{
+	cursor:move;
+}
+
+
+
