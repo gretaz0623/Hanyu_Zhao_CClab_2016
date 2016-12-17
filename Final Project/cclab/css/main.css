@@ -1,0 +1,186 @@
+#girl{
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    top: 0;}
+
+#video{
+    position: fixed;
+    z-index: -10000;
+    margin-left: 15%;
+    display: block;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+#button{
+       position: fixed;
+    left: -20px;
+    bottom: -20px;
+    z-index: 1001;
+
+}
+.flower02{
+    position: absolute;
+    top: 330px;
+    margin-left: -200px;
+    bottom: 10%;
+    z-index: 20;
+}
+
+.flower01{
+    position: absolute;
+    top: 180px;
+    margin-left: -200px;
+    bottom: 10%;
+    z-index: 20;
+}
+
+.flower03{
+    position: absolute;
+    top: 420px;
+    margin-left: -274px;
+    bottom: 10%;
+    z-index: 18;
+}
+
+.flower04{
+    position: absolute;
+    top: 490px;
+    margin-left: -384px;
+    bottom: 10%;
+    z-index: 15;
+}
+.leftEye{
+      width: 119px;
+    height: auto;
+    float: right;
+    right: 670px;
+    top: 1149px;
+    position: absolute;
+    z-index: 100;
+    display: block;
+}
+
+.rightEye{
+    width: 149px;
+    height: auto;
+    float: right;
+    right: 460px;
+    top: 1108px;
+    position: absolute;
+    z-index: 10000;
+    display: block;
+}
+
+.arrow{
+    width: 209px;
+    height: auto;
+    float: right;
+    right: 270px;
+    top: 1066px;
+    position: absolute;
+    z-index: 10001;
+    display: inherit;
+}
+
+
+.butterfly{
+    width: 116px;
+    height: auto;
+    float: right;
+    right: 400px;
+    top: 1217px;
+    position: absolute;
+    z-index: 120;
+    display: block;
+    opacity: 0;
+}
+
+#long{
+       width: 340px;
+    height: auto;
+    float: right;
+    right: 583px;
+    top: 1710px;
+    position: absolute;
+    z-index: 90;
+    display: block;
+    opacity: 0;
+}
+
+#longLeftEye{
+    width: 92px;
+    height: auto;
+    float: right;
+    right: 695px;
+    top: 1850px;
+    position: absolute;
+    z-index: 100;
+    display: block;
+    opacity: 0;
+}
+
+#cloud{
+    width: 142px;
+    height: auto;
+    float: right;
+    right: 570px;
+    top: 2040px;
+    position: absolute;
+    z-index: 1200;
+    display: block;
+}
+
+#arrow2{
+    width: 209px;
+    height: auto;
+    float: right;
+    right: 366px;
+    top: 2012px;
+    position: absolute;
+    z-index: 1200;
+    display: inherit;
+}
+
+
+#wrapper {
+    height: 4000px;
+
+}
+
+#main-scenes{
+     width: 1280px;
+     height: 700px
+}
+
+
+#second-scenes{
+     width: 1280px;
+     height: 700px
+}
+
+#third-scenes{
+     width: 1280px;
+     height: 700px
+}
+
+footer a{
+    color: white;
+    margin-left: 20%;
+    top: 24px;
+    width: 100%;
+    height: 241px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+
+}
+
+a:hover{
+    color: #F1D5EF; 
+}
+
+.active {
+    color: #F1D5EF
+}
